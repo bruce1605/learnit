@@ -1,0 +1,64 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, #a066cb, #004aad);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    box-shadow: 2px 0px 5px #0000005d;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    background: none;
+    border: none;
+}
+.sidenav a:hover {
+    color: #333333;
+}
+
+.navbtn {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    text-align: left;
+}
+
+.navbtn button {
+    background: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.bg-orange {
+    background-color: #ffbd59;
+}
+
+.text-orange {
+    color: #ffbd59
+}
+
+.bg-myblue {
+    background-color: #004aad;
+}
+
+#qr-blank {
+    height: 100px;
+    text-align: center;
+}

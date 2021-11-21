@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Direct | Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        #intro-login {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), #9f9da3), url('./learn3.jpg') no-repeat center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="">
+    <div class="container text-center">
+        <div class="text-center text-light bg-myblue w-50 mx-auto rounded p-2 mt-3">
+            <a href="index.html" class="text-decoration-none display-1 mb-0 text-light">learnItApp</a>
+            <p>
+                <span class="">Kasi.</span>
+                <span class="">To.</span>
+                <span class="text-green">Kasi</span>
+            </p>
+        </div>
+        <div class="my-5  p-3 rounded-3 text-light" id="intro-login">
+            <p class="">
+                Enter your details to register  
+
+            </p>
+        </div>
+        <form class="w-75 mx-auto ">
+            <div class="mb-3 text-start">
+              <label for="name" class="form-label ">Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Tshepo">
+            </div>
+            <div class="mb-3 text-start">
+              <label for="surname" class="form-label  ">Surname</label>
+              <input type="text" class="form-control" id="surname" placeholder="Dlamini">
+            </div>
+            <div class="mb-3 text-start">
+                <label for="birthdate" class="form-label  ">Date of Birth</label>
+                <input type="date" class="form-control" id="birthdate">
+            </div>
+            <div class="mb-3 text-start">
+                <label for="mobile" class="form-label  ">Mobile Number</label>
+                <input type="text" class="form-control" id="mobile" placeholder="012 345 6789">
+            </div>
+            <div class="mb-3 text-start">
+                <label for="country" class="form-label ">Country</label>
+                <select class="form-select" id="country" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Soweto</option>
+                    <option value="2">Alexandra</option>
+                    <option value="3">Soshanguve</option>
+                    <option value="3">Tembisa</option>
+                    <option value="3">Mamelodi</option>
+                </select>                
+            </div>
+
+            <a type="button" href="findmentor2.html" class="btn btn-primary d-block w-75 mx-auto bt-3">Register</a>
+          </form>
+
+          <div class="mt-5">
+              <a href="#" class="text-decoration-none">Terms of Use</a><br>
+              <a href="#" class="text-decoration-none">Privacy Policy</a>
+          </div>
+
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="script.js"></script></body>
+</html>
